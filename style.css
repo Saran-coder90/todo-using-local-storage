@@ -1,0 +1,37 @@
+body{
+    background: linear-gradient(to bottom, lightgreen , rgb(167, 167, 242));
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#whole-container {
+    background-color: aliceblue;
+    padding: 2em;
+    border-radius: 10px;
+}
+
+#input{
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-style: solid;
+    border-color: lightgray;
+    border-width : 1px;
+    padding: 0.5em;
+    outline: none;
+}
+#add{
+    width : 100px;
+    margin-left : 10px;
+}
+#todo-task{
+    margin-top :  1em;
+}
+p:hover{
+    cursor: pointer;
+}
+h2{
+    color:rgb(3, 99, 38)
+}
